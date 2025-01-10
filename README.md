@@ -14,10 +14,12 @@ Este microservicio permite eliminar usuarios de la base de datos.
    git clone https://github.com/<tu-usuario>/delete-user-service.git
 
 2. Instala las dependencias:
+    ```bash
     npm install
 
 3.  Configura las variables de entorno. Crea un archivo .env y proporciona los valores necesarios:
 
+    ```bash
     DB_HOST=localhost
     DB_USER=root
     DB_PASSWORD=tu_password
@@ -26,8 +28,10 @@ Este microservicio permite eliminar usuarios de la base de datos.
 
 ##Uso
  1. Inicia el servicio localmente:
+    ```bash
     node src/server.js
 
  2. Endpoint principal: 
- DELETE /api/users/:id
+    ```bash
+    DELETE /api/users/:id
 Permite eliminar un usuario por su id.

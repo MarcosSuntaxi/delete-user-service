@@ -33,5 +33,5 @@ Este microservicio permite eliminar usuarios de la base de datos.
 
  2. Endpoint principal: 
     ```bash
-    DELETE /api/users/:id
+    DELETE: http://localhost:3002/api/users/:id
 Permite eliminar un usuario por su id.

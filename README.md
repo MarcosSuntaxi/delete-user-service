@@ -26,7 +26,7 @@ Este microservicio permite eliminar usuarios de la base de datos.
     DB_NAME=user_database
     DB_PORT=3306
 
-##Uso
+## Uso
  1. Inicia el servicio localmente:
     ```bash
     node src/server.js
